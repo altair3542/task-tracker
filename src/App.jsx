@@ -5,6 +5,7 @@ export default function App() {
   const [tasks, setTasks] = useState([
     { id: 1, title: "hacer la compra", done: true},
     { id: 2, title: "Enviar correo electronico", done: true},
+    { id: 3, title: "Explicar git", done: true},
   ])
 
   return(
